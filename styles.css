@@ -174,31 +174,35 @@ body {
     font-weight: 800;
 }
 
-.action {
+.blue-box {
+
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 20px;
+    width: 40%;
+    background-color: #3883f6;
+    border-radius: 25px;
+  }
+  
+.content {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: 100px 500px;
-    padding: 50px;
-    background-color: #3882f6;
-    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.button-header {
-    font-family: "Segoe UI";
-    font-weight: 500;
-    font-size: 20px;
-    color: #f9faf8;
+.left {
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
-.button-subtext {
-    font-family: "Segoe UI";
-    font-weight: 400;
-    font-size: 16px;
-    color: #f9faf8; 
+.buttontext {
+    padding: 5px;
 }
 
 .join {
+    display: flex;
     font-family: "Segoe UI";
     font-weight: 700;
     background-color: #3882f6;
@@ -208,7 +212,6 @@ body {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 14px;
     cursor: pointer;
 }
