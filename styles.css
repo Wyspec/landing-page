@@ -179,7 +179,7 @@ body {
     justify-content: space-between;
     margin: 50px auto;
     padding: 20px;
-    width: 40%;
+    width: 50%;
     background-color: #3883f6;
     border-radius: 25px;
   }
@@ -197,8 +197,14 @@ body {
     color: white;
 }
 
-.buttontext {
-    padding: 5px;
+.button-text-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button-text, .button-text-title {
+    font-family: Roboto;
+    padding-right: 5px;
 }
 
 .join {
